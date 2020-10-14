@@ -128,6 +128,9 @@ y se indica si estan bloqueadas o no.
 | 3   | Port-channel2       | FWD    | 
 | 3   | Port-channel3       | BLK    | 
 
-#### Finalmente, un screenshots de uno de los clientes de la topologia funcionando
+#### Finalmente, una captura de paquetes entre el ESW2 - SW1
+La captura de paquetes demuestra el funcionamiento de la topologia
+y el uso del algoritmo STP. Los paquetes capturados pertenecen 
+a un ping extendido entre Tiny Linux y un VPC en su misma VLAN.
 
-![Tiny Linux realiando ping a un VPC en su misma vlan](screens/practica-4-ping.png) 
+![Tiny Linux realiando ping a un VPC en su misma vlan](screens/practica-4-packets.png) 
